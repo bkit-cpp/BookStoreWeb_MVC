@@ -66,6 +66,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/DELL/source/repos/BookStoreMVCWeb/BookStoreMVCWeb/Views/Account/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/DELL/source/repos/BookStoreMVCWeb/BookStoreMVCWeb/Views/Account/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -96,6 +100,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/DELL/source/repos/BookStoreMVCWeb/BookStoreMVCWeb/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/source/repos/BookStoreMVCWeb/BookStoreMVCWeb/Views/ChatGPT/UseChatGpt.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdEdQVFxVc2VDaGF0R3B0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/DELL/source/repos/BookStoreMVCWeb/BookStoreMVCWeb/Views/Home/Index.cshtml]

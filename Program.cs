@@ -5,6 +5,7 @@ using Volo.Abp.Data;
 using Microsoft.EntityFrameworkCore.Storage;
 using BookStoreMVCWeb.Models;
 using Microsoft.AspNetCore.Identity;
+using BookStoreMVCWeb.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,7 +25,8 @@ builder.Services.AddSession(options =>
 
 });
 //builder.Services.AddDbContext<BookStoreMVCWebContext>();
-builder.Services.AddIdentity<AppUser,IdentityRole>()
+builder.Services.AddIdentity<AppUser,IdentityRole>(
+	)
 	.AddEntityFrameworkStores<BookStoreMVCWebContext>().AddDefaultTokenProviders();
 builder.Services.Configure<IdentityOptions>(options =>
 {
@@ -36,9 +38,9 @@ builder.Services.Configure<IdentityOptions>(options =>
 	options.Password.RequiredLength = 6;
 	options.Password.RequiredUniqueChars = 1;
 	options.User.RequireUniqueEmail = true;
+	options.SignIn.RequireConfirmedEmail = true;
 });
-
-
+builder.Services.AddScoped<EmailSender>();
 
 var app = builder.Build();
 // Configure the HTTP request pipeline.

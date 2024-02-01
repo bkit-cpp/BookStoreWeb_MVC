@@ -76,6 +76,18 @@
               "target": "Package",
               "version": "[13.0.3, )"
             },
+            "OpenAI": {
+              "target": "Package",
+              "version": "[1.10.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.ServiceModel.Syndication": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Volo.Abp.Data": {
               "target": "Package",
               "version": "[6.0.3, )"

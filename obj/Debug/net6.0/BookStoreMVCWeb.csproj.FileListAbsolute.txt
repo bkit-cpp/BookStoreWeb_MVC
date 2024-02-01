@@ -294,3 +294,5 @@ C:\Users\DELL\source\repos\BookStoreMVCWeb\BookStoreMVCWeb\obj\Debug\net6.0\scop
 C:\Users\DELL\source\repos\BookStoreMVCWeb\BookStoreMVCWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
 C:\Users\DELL\source\repos\BookStoreMVCWeb\BookStoreMVCWeb\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
 C:\Users\DELL\source\repos\BookStoreMVCWeb\BookStoreMVCWeb\obj\Debug\net6.0\BookStoreMVCWeb.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\DELL\source\repos\BookStoreMVCWeb\BookStoreMVCWeb\bin\Debug\net6.0\OpenAI_API.dll
+C:\Users\DELL\source\repos\BookStoreMVCWeb\BookStoreMVCWeb\bin\Debug\net6.0\System.ServiceModel.Syndication.dll
